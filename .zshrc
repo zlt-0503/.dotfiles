@@ -70,3 +70,9 @@ if [ -f /usr/local/share/zsh-completions/_git ]; then
     autoload -Uz compinit
     compinit
 fi
+
+# Auto load tmux
+if [ -z "$TMUX" ]; then
+    tmux attach-session -t default || tmux new-session -s default
+fi
+

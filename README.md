@@ -9,8 +9,6 @@
 
 # SorAsuka's dotfiles
 
-Here’s an English version of a README.md file to describe how to use your dotfiles project. Feel free to adapt it to your specific needs.
-
 ## Contents
 
 This repository includes:
